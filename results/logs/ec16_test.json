@@ -1,0 +1,60 @@
+[
+  {
+    "n_examples": 578,
+    "n_samples": 20,
+    "accuracy_valid_solution": 0.2179930795847751,
+    "pass_at_k": 0.31833910034602075,
+    "accuracy_majority_select_at_k": 0.21972318339100347,
+    "accuracy_qhalt_select_at_k": 0.27162629757785467,
+    "coverage": 0.09281294621608757,
+    "coverage_found": 195,
+    "coverage_total_essential": 2101,
+    "valid_sample_rate": 0.2236159169550173,
+    "conflicts_single": {
+      "mean": 3.51038062283737,
+      "median": 3.0,
+      "min": 0,
+      "max": 12
+    },
+    "conflicts_per_sample_mean": 3.553979238754325,
+    "noncolor_edges_single_mean": 0.0,
+    "exact_match_rate": 0.04152249134948097,
+    "checkpoint": "checkpoints/Edge-coloring-16-ACT-torch/pretrain_att_gram_edge_coloring_16/step_76500",
+    "step": 76500,
+    "split": "test",
+    "seed": 0,
+    "used_ema": true,
+    "halt_max_steps": 16,
+    "kl_coef": 0.45,
+    "seconds": 103.1
+  },
+  {
+    "n_examples": 578,
+    "n_samples": 20,
+    "accuracy_valid_solution": 0.2179930795847751,
+    "pass_at_k": 0.31833910034602075,
+    "accuracy_majority_select_at_k": 0.21972318339100347,
+    "accuracy_qhalt_select_at_k": 0.27162629757785467,
+    "coverage": 0.09281294621608757,
+    "coverage_found": 195,
+    "coverage_total_essential": 2101,
+    "valid_sample_rate": 0.2236159169550173,
+    "conflicts_single": {
+      "mean": 3.51038062283737,
+      "median": 3.0,
+      "min": 0,
+      "max": 12
+    },
+    "conflicts_per_sample_mean": 3.553979238754325,
+    "noncolor_edges_single_mean": 0.0,
+    "exact_match_rate": 0.04152249134948097,
+    "checkpoint": "checkpoints/Edge-coloring-16-ACT-torch/pretrain_att_gram_edge_coloring_16/step_76500",
+    "step": 76500,
+    "split": "test",
+    "seed": 0,
+    "used_ema": true,
+    "halt_max_steps": 16,
+    "kl_coef": 0.45,
+    "seconds": 100.9
+  }
+]

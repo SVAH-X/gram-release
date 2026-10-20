@@ -1,0 +1,6 @@
+official NQ8               118.6 s for  1240 questions =   95.6 ms per question  (exit 0)
+official NQ10             2414.2 s for 18466 questions =  130.7 ms per question  (exit 0)
+official EC-16 (KL 0.2)    114.2 s for   578 questions =  197.5 ms per question  (exit 0)
+ours NQ8 (v13)              82.7 s for   773 questions =  107.0 ms per question  (exit 0)
+ours NQ10                   29.8 s for  6513 questions =    4.6 ms per question  (exit 1)
+ours EC-16 (ec-v5)         118.2 s for   578 questions =  204.4 ms per question  (exit 0)

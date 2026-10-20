@@ -1,0 +1,29 @@
+{
+  "n_examples": 578,
+  "n_samples": 20,
+  "accuracy_valid_solution": 0.23183391003460208,
+  "pass_at_k": 0.31314878892733566,
+  "accuracy_majority_select_at_k": 0.23529411764705882,
+  "accuracy_qhalt_select_at_k": 0.28546712802768165,
+  "coverage": 0.09138505473584008,
+  "coverage_found": 192,
+  "coverage_total_essential": 2101,
+  "valid_sample_rate": 0.2278546712802768,
+  "conflicts_single": {
+    "mean": 3.4688581314878895,
+    "median": 3.0,
+    "min": 0,
+    "max": 13
+  },
+  "conflicts_per_sample_mean": 3.522318339100346,
+  "noncolor_edges_single_mean": 0.0,
+  "exact_match_rate": 0.04498269896193772,
+  "checkpoint": "checkpoints/Edge-coloring-16-ACT-torch/pretrain_att_gram_edge_coloring_16/step_76500",
+  "step": 76500,
+  "split": "test",
+  "seed": 0,
+  "used_ema": true,
+  "halt_max_steps": 64,
+  "kl_coef": 0.45,
+  "seconds": 404.8
+}

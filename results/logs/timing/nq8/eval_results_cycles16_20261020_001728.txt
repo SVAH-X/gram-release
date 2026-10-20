@@ -1,0 +1,61 @@
+============================================================
+EVALUATION RESULTS
+============================================================
+
+Checkpoint: /cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram-release/logs/timing/nq8
+Timestamp: 20261020_001728
+Num samples: 20
+Temperature: 0.0
+Max H-cycles: 16
+Eval data: ['data/nqueens-8']
+
+============================================================
+METRICS
+============================================================
+
+NQueens/answer_coverage_12sol           : 0.8056
+NQueens/answer_coverage_18sol           : 0.6620
+NQueens/answer_coverage_1sol            : 1.0000
+NQueens/answer_coverage_2sol            : 0.9985
+NQueens/answer_coverage_3sol            : 1.0000
+NQueens/answer_coverage_4sol            : 0.9940
+NQueens/answer_coverage_5sol            : 0.9733
+NQueens/answer_coverage_6sol            : 0.9889
+NQueens/answer_coverage_7sol            : 0.9694
+NQueens/answer_coverage_8sol            : 0.9062
+NQueens/avg_correctness_ratio           : 0.9964
+NQueens/avg_unique_samples              : 2.6734
+NQueens/count_12sol                     : 12.0000
+NQueens/count_18sol                     : 36.0000
+NQueens/count_1sol                      : 517.0000
+NQueens/count_2sol                      : 332.0000
+NQueens/count_3sol                      : 144.0000
+NQueens/count_4sol                      : 84.0000
+NQueens/count_5sol                      : 15.0000
+NQueens/count_6sol                      : 30.0000
+NQueens/count_7sol                      : 14.0000
+NQueens/count_8sol                      : 56.0000
+NQueens/exact_pass@1                    : 0.9935
+NQueens/exact_pass@10                   : 1.0000
+NQueens/exact_pass@2                    : 1.0000
+NQueens/exact_pass@20                   : 1.0000
+NQueens/exact_pass@5                    : 1.0000
+NQueens/majority_exact                  : 1.0000
+NQueens/majority_exact_12sol            : 1.0000
+NQueens/majority_exact_18sol            : 1.0000
+NQueens/majority_exact_1sol             : 1.0000
+NQueens/majority_exact_2sol             : 1.0000
+NQueens/majority_exact_3sol             : 1.0000
+NQueens/majority_exact_4sol             : 1.0000
+NQueens/majority_exact_5sol             : 1.0000
+NQueens/majority_exact_6sol             : 1.0000
+NQueens/majority_exact_7sol             : 1.0000
+NQueens/majority_exact_8sol             : 1.0000
+NQueens/majority_ratio                  : 0.6908
+NQueens/majority_token                  : 0.9445
+NQueens/pass@1                          : 0.9439
+NQueens/pass@10                         : 0.9940
+NQueens/pass@2                          : 0.9648
+NQueens/pass@20                         : 0.9978
+NQueens/pass@5                          : 0.9844
+NQueens/total_puzzles                   : 1240.0000

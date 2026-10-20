@@ -1,0 +1,40 @@
+[eval_graph2] test.tsv: 578 puzzles, task=edge_coloring, max_n=16, n_samples=20, seed=0, n_register=16
+{
+  "n_examples": 578,
+  "task": "edge_coloring",
+  "accuracy_valid_solution": 0.7110726643598616,
+  "n_samples": 20,
+  "pass_at_k": 0.9965397923875432,
+  "accuracy_lprm_select_at_k": 0.9965397923875432,
+  "accuracy_majority_select_at_k": 0.7577854671280276,
+  "nsup_override": null,
+  "coverage": 0.8762494050452165,
+  "coverage_found": 1841,
+  "coverage_total_essential": 2101,
+  "conflicts_single": {
+    "mean": 1.1038062283737025,
+    "median": 0.0,
+    "max": 9,
+    "n": 578,
+    "histogram": {
+      "0": 411,
+      "2": 58,
+      "3": 11,
+      "4": 54,
+      "5": 16,
+      "6": 14,
+      "7": 4,
+      "8": 9,
+      "9": 1
+    }
+  },
+  "noncolor_rate_single": 0.0,
+  "conflicts_sum_over_test_single": 638,
+  "valid_sample_rate": 0.7001730103806229,
+  "conflicts_per_sample_mean": 1.143771626297578,
+  "conflicts_sum_20_per_instance": 22.875432525951556,
+  "split": "data/edge_coloring_n16/test.tsv",
+  "checkpoint": "runs/ecp1_A9_plain_aug_B33/best.pt",
+  "seed": 0,
+  "used_ema": false
+}

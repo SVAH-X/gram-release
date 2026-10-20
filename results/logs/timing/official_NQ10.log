@@ -1,0 +1,111 @@
+Loading checkpoint from /cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram-release/logs/timing/nq10/checkpoint.pt
+
+Configuration:
+  Architecture: recursive_reasoning.gram@GenerativeRecursiveReasoningModel
+  Train data: ['data/nqueens-10']
+  Eval data: ['data/nqueens-10'] (TEST SET)
+  Batch size: 96 (B), Samples: 20 (K) -> Effective: 1920 (B*K)
+  Temperature: 0.0
+  Filter augmented: False
+  Max H-cycles: 16
+  Value: disabled
+  World size: 1
+
+Loading evaluation data...
+Creating pass@k evaluator...
+Creating N-Queen pass@k evaluator...
+Loading model...
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+  ✓ Loading EMA parameters from checkpoint
+
+Running pass@20 evaluation...
+============================================================
+Total examples in all: 18466
+Eval K=20: 0batch [00:00, ?batch/s]Eval K=20: 1batch [00:12, 12.86s/batch]Eval K=20: 2batch [00:25, 12.64s/batch]Eval K=20: 3batch [00:37, 12.57s/batch]Eval K=20: 4batch [00:50, 12.53s/batch]Eval K=20: 5batch [01:02, 12.51s/batch]Eval K=20: 6batch [01:15, 12.50s/batch]Eval K=20: 7batch [01:27, 12.49s/batch]Eval K=20: 8batch [01:40, 12.49s/batch]Eval K=20: 9batch [01:52, 12.48s/batch]Eval K=20: 10batch [02:05, 12.48s/batch]Eval K=20: 11batch [02:17, 12.48s/batch]Eval K=20: 12batch [02:30, 12.48s/batch]Eval K=20: 13batch [02:42, 12.47s/batch]Eval K=20: 14batch [02:55, 12.47s/batch]Eval K=20: 15batch [03:07, 12.47s/batch]Eval K=20: 16batch [03:20, 12.47s/batch]Eval K=20: 17batch [03:32, 12.47s/batch]Eval K=20: 18batch [03:44, 12.47s/batch]Eval K=20: 19batch [03:57, 12.47s/batch]Eval K=20: 20batch [04:09, 12.47s/batch]Eval K=20: 21batch [04:22, 12.47s/batch]Eval K=20: 22batch [04:34, 12.47s/batch]Eval K=20: 23batch [04:47, 12.47s/batch]Eval K=20: 24batch [04:59, 12.47s/batch]Eval K=20: 25batch [05:12, 12.47s/batch]Eval K=20: 26batch [05:24, 12.47s/batch]Eval K=20: 27batch [05:37, 12.47s/batch]Eval K=20: 28batch [05:49, 12.47s/batch]Eval K=20: 29batch [06:02, 12.47s/batch]Eval K=20: 30batch [06:14, 12.47s/batch]Eval K=20: 31batch [06:27, 12.47s/batch]Eval K=20: 32batch [06:39, 12.47s/batch]Eval K=20: 33batch [06:52, 12.47s/batch]Eval K=20: 34batch [07:04, 12.47s/batch]Eval K=20: 35batch [07:16, 12.47s/batch]Eval K=20: 36batch [07:29, 12.47s/batch]Eval K=20: 37batch [07:41, 12.47s/batch]Eval K=20: 38batch [07:54, 12.47s/batch]Eval K=20: 39batch [08:06, 12.47s/batch]Eval K=20: 40batch [08:19, 12.47s/batch]Eval K=20: 41batch [08:31, 12.47s/batch]Eval K=20: 42batch [08:44, 12.47s/batch]Eval K=20: 43batch [08:56, 12.47s/batch]Eval K=20: 44batch [09:09, 12.47s/batch]Eval K=20: 45batch [09:21, 12.47s/batch]Eval K=20: 46batch [09:34, 12.48s/batch]Eval K=20: 47batch [09:46, 12.48s/batch]Eval K=20: 48batch [09:59, 12.48s/batch]Eval K=20: 49batch [10:11, 12.48s/batch]Eval K=20: 50batch [10:24, 12.48s/batch]Eval K=20: 51batch [10:36, 12.47s/batch]Eval K=20: 52batch [10:49, 12.47s/batch]Eval K=20: 53batch [11:01, 12.47s/batch]Eval K=20: 54batch [11:13, 12.47s/batch]Eval K=20: 55batch [11:26, 12.47s/batch]Eval K=20: 56batch [11:38, 12.47s/batch]Eval K=20: 57batch [11:51, 12.47s/batch]Eval K=20: 58batch [12:03, 12.47s/batch]Eval K=20: 59batch [12:16, 12.47s/batch]Eval K=20: 60batch [12:28, 12.47s/batch]Eval K=20: 61batch [12:41, 12.47s/batch]Eval K=20: 62batch [12:53, 12.48s/batch]Eval K=20: 63batch [13:06, 12.48s/batch]Eval K=20: 64batch [13:18, 12.48s/batch]Eval K=20: 65batch [13:31, 12.48s/batch]Eval K=20: 66batch [13:43, 12.48s/batch]Eval K=20: 67batch [13:56, 12.48s/batch]Eval K=20: 68batch [14:08, 12.48s/batch]Eval K=20: 69batch [14:21, 12.48s/batch]Eval K=20: 70batch [14:33, 12.48s/batch]Eval K=20: 71batch [14:46, 12.47s/batch]Eval K=20: 72batch [14:58, 12.48s/batch]Eval K=20: 73batch [15:11, 12.47s/batch]Eval K=20: 74batch [15:23, 12.48s/batch]Eval K=20: 75batch [15:35, 12.47s/batch]Eval K=20: 76batch [15:48, 12.48s/batch]Eval K=20: 77batch [16:00, 12.47s/batch]Eval K=20: 78batch [16:13, 12.48s/batch]Eval K=20: 79batch [16:25, 12.47s/batch]Eval K=20: 80batch [16:38, 12.47s/batch]Eval K=20: 81batch [16:50, 12.47s/batch]Eval K=20: 82batch [17:03, 12.47s/batch]Eval K=20: 83batch [17:15, 12.47s/batch]Eval K=20: 84batch [17:28, 12.47s/batch]Eval K=20: 85batch [17:40, 12.48s/batch]Eval K=20: 86batch [17:53, 12.47s/batch]Eval K=20: 87batch [18:05, 12.47s/batch]Eval K=20: 88batch [18:18, 12.47s/batch]Eval K=20: 89batch [18:30, 12.47s/batch]Eval K=20: 90batch [18:43, 12.47s/batch]Eval K=20: 91batch [18:55, 12.47s/batch]Eval K=20: 92batch [19:08, 12.47s/batch]Eval K=20: 93batch [19:20, 12.47s/batch]Eval K=20: 94batch [19:32, 12.47s/batch]Eval K=20: 95batch [19:45, 12.48s/batch]Eval K=20: 96batch [19:57, 12.48s/batch]Eval K=20: 97batch [20:10, 12.48s/batch]Eval K=20: 98batch [20:22, 12.48s/batch]Eval K=20: 99batch [20:35, 12.49s/batch]Eval K=20: 100batch [20:47, 12.49s/batch]Eval K=20: 101batch [21:00, 12.48s/batch]Eval K=20: 102batch [21:12, 12.48s/batch]Eval K=20: 103batch [21:25, 12.48s/batch]Eval K=20: 104batch [21:37, 12.48s/batch]Eval K=20: 105batch [21:50, 12.47s/batch]Eval K=20: 106batch [22:02, 12.48s/batch]Eval K=20: 107batch [22:15, 12.47s/batch]Eval K=20: 108batch [22:27, 12.48s/batch]Eval K=20: 109batch [22:40, 12.47s/batch]Eval K=20: 110batch [22:52, 12.47s/batch]Eval K=20: 111batch [23:05, 12.47s/batch]Eval K=20: 112batch [23:17, 12.47s/batch]Eval K=20: 113batch [23:30, 12.47s/batch]Eval K=20: 114batch [23:42, 12.48s/batch]Eval K=20: 115batch [23:55, 12.48s/batch]Eval K=20: 116batch [24:07, 12.48s/batch]Eval K=20: 117batch [24:19, 12.48s/batch]Eval K=20: 118batch [24:32, 12.48s/batch]Eval K=20: 119batch [24:44, 12.48s/batch]Eval K=20: 120batch [24:57, 12.48s/batch]Eval K=20: 121batch [25:09, 12.48s/batch]Eval K=20: 122batch [25:22, 12.48s/batch]Eval K=20: 123batch [25:34, 12.48s/batch]Eval K=20: 124batch [25:47, 12.48s/batch]Eval K=20: 125batch [25:59, 12.48s/batch]Eval K=20: 126batch [26:12, 12.48s/batch]Eval K=20: 127batch [26:24, 12.48s/batch]Eval K=20: 128batch [26:37, 12.48s/batch]Eval K=20: 129batch [26:49, 12.48s/batch]Eval K=20: 130batch [27:02, 12.48s/batch]Eval K=20: 131batch [27:14, 12.48s/batch]Eval K=20: 132batch [27:27, 12.48s/batch]Eval K=20: 133batch [27:39, 12.48s/batch]Eval K=20: 134batch [27:52, 12.48s/batch]Eval K=20: 135batch [28:04, 12.48s/batch]Eval K=20: 136batch [28:17, 12.48s/batch]Eval K=20: 137batch [28:29, 12.48s/batch]Eval K=20: 138batch [28:42, 12.48s/batch]Eval K=20: 139batch [28:54, 12.48s/batch]Eval K=20: 140batch [29:07, 12.48s/batch]Eval K=20: 141batch [29:19, 12.48s/batch]Eval K=20: 142batch [29:31, 12.48s/batch]Eval K=20: 143batch [29:44, 12.47s/batch]Eval K=20: 144batch [29:56, 12.48s/batch]Eval K=20: 145batch [30:09, 12.48s/batch]Eval K=20: 146batch [30:21, 12.48s/batch]Eval K=20: 147batch [30:34, 12.48s/batch]Eval K=20: 148batch [30:46, 12.48s/batch]Eval K=20: 149batch [30:59, 12.48s/batch]Eval K=20: 150batch [31:11, 12.48s/batch]Eval K=20: 151batch [31:24, 12.48s/batch]Eval K=20: 152batch [31:36, 12.48s/batch]Eval K=20: 153batch [31:49, 12.48s/batch]Eval K=20: 154batch [32:01, 12.48s/batch]Eval K=20: 155batch [32:14, 12.48s/batch]Eval K=20: 156batch [32:26, 12.48s/batch]Eval K=20: 157batch [32:39, 12.48s/batch]Eval K=20: 158batch [32:51, 12.48s/batch]Eval K=20: 159batch [33:04, 12.48s/batch]Eval K=20: 160batch [33:16, 12.48s/batch]Eval K=20: 161batch [33:29, 12.48s/batch]Eval K=20: 162batch [33:41, 12.48s/batch]Eval K=20: 163batch [33:53, 12.48s/batch]Eval K=20: 164batch [34:06, 12.48s/batch]Eval K=20: 165batch [34:18, 12.48s/batch]Eval K=20: 166batch [34:31, 12.48s/batch]Eval K=20: 167batch [34:43, 12.48s/batch]Eval K=20: 168batch [34:56, 12.48s/batch]Eval K=20: 169batch [35:08, 12.48s/batch]Eval K=20: 170batch [35:21, 12.48s/batch]Eval K=20: 171batch [35:33, 12.48s/batch]Eval K=20: 172batch [35:46, 12.48s/batch]Eval K=20: 173batch [35:58, 12.48s/batch]Eval K=20: 174batch [36:11, 12.48s/batch]Eval K=20: 175batch [36:23, 12.48s/batch]Eval K=20: 176batch [36:36, 12.48s/batch]Eval K=20: 177batch [36:48, 12.48s/batch]Eval K=20: 178batch [37:01, 12.47s/batch]Eval K=20: 179batch [37:13, 12.48s/batch]Eval K=20: 180batch [37:26, 12.48s/batch]Eval K=20: 181batch [37:38, 12.48s/batch]Eval K=20: 182batch [37:51, 12.48s/batch]Eval K=20: 183batch [38:03, 12.48s/batch]Eval K=20: 184batch [38:15, 12.48s/batch]Eval K=20: 185batch [38:28, 12.48s/batch]Eval K=20: 186batch [38:40, 12.48s/batch]Eval K=20: 187batch [38:53, 12.48s/batch]Eval K=20: 188batch [39:05, 12.48s/batch]Eval K=20: 189batch [39:18, 12.48s/batch]Eval K=20: 190batch [39:30, 12.48s/batch]Eval K=20: 191batch [39:43, 12.48s/batch]Eval K=20: 192batch [39:55, 12.48s/batch]Eval K=20: 193batch [40:08, 12.46s/batch]Eval K=20: 193batch [40:08, 12.48s/batch]
+
+============================================================
+Computing pass@k metrics...
+
+============================================================
+RESULTS
+============================================================
+NQueens/answer_coverage_10sol           : 0.8130
+NQueens/answer_coverage_11sol           : 0.7661
+NQueens/answer_coverage_12sol           : 0.7639
+NQueens/answer_coverage_13sol           : 0.7395
+NQueens/answer_coverage_14sol           : 0.7392
+NQueens/answer_coverage_15sol           : 0.6997
+NQueens/answer_coverage_16sol           : 0.6713
+NQueens/answer_coverage_17sol           : 0.6641
+NQueens/answer_coverage_18sol           : 0.6543
+NQueens/answer_coverage_19sol           : 0.6233
+NQueens/answer_coverage_1sol            : 1.0000
+NQueens/answer_coverage_20sol           : 0.2981
+NQueens/answer_coverage_2sol            : 0.9992
+NQueens/answer_coverage_3sol            : 0.9923
+NQueens/answer_coverage_4sol            : 0.9781
+NQueens/answer_coverage_5sol            : 0.9554
+NQueens/answer_coverage_6sol            : 0.9326
+NQueens/answer_coverage_7sol            : 0.8856
+NQueens/answer_coverage_8sol            : 0.8713
+NQueens/answer_coverage_9sol            : 0.8390
+NQueens/avg_correctness_ratio           : 0.9034
+NQueens/avg_unique_samples              : 6.7350
+NQueens/count_10sol                     : 500.0000
+NQueens/count_11sol                     : 330.0000
+NQueens/count_12sol                     : 432.0000
+NQueens/count_13sol                     : 429.0000
+NQueens/count_14sol                     : 126.0000
+NQueens/count_15sol                     : 210.0000
+NQueens/count_16sol                     : 112.0000
+NQueens/count_17sol                     : 221.0000
+NQueens/count_18sol                     : 126.0000
+NQueens/count_19sol                     : 76.0000
+NQueens/count_1sol                      : 2398.0000
+NQueens/count_20sol                     : 964.0000
+NQueens/count_2sol                      : 3314.0000
+NQueens/count_3sol                      : 3144.0000
+NQueens/count_4sol                      : 2320.0000
+NQueens/count_5sol                      : 1305.0000
+NQueens/count_6sol                      : 876.0000
+NQueens/count_7sol                      : 567.0000
+NQueens/count_8sol                      : 368.0000
+NQueens/count_9sol                      : 648.0000
+NQueens/exact_pass@1                    : 0.9033
+NQueens/exact_pass@10                   : 0.9997
+NQueens/exact_pass@2                    : 0.9768
+NQueens/exact_pass@20                   : 1.0000
+NQueens/exact_pass@5                    : 0.9981
+NQueens/majority_exact                  : 1.0000
+NQueens/majority_exact_10sol            : 1.0000
+NQueens/majority_exact_11sol            : 1.0000
+NQueens/majority_exact_12sol            : 1.0000
+NQueens/majority_exact_13sol            : 1.0000
+NQueens/majority_exact_14sol            : 1.0000
+NQueens/majority_exact_15sol            : 1.0000
+NQueens/majority_exact_16sol            : 1.0000
+NQueens/majority_exact_17sol            : 1.0000
+NQueens/majority_exact_18sol            : 1.0000
+NQueens/majority_exact_19sol            : 1.0000
+NQueens/majority_exact_1sol             : 1.0000
+NQueens/majority_exact_20sol            : 1.0000
+NQueens/majority_exact_2sol             : 1.0000
+NQueens/majority_exact_3sol             : 1.0000
+NQueens/majority_exact_4sol             : 1.0000
+NQueens/majority_exact_5sol             : 1.0000
+NQueens/majority_exact_6sol             : 1.0000
+NQueens/majority_exact_7sol             : 1.0000
+NQueens/majority_exact_8sol             : 1.0000
+NQueens/majority_exact_9sol             : 1.0000
+NQueens/majority_ratio                  : 0.4253
+NQueens/majority_token                  : 0.9262
+NQueens/pass@1                          : 0.9220
+NQueens/pass@10                         : 0.9841
+NQueens/pass@2                          : 0.9444
+NQueens/pass@20                         : 0.9925
+NQueens/pass@5                          : 0.9705
+NQueens/total_puzzles                   : 18466.0000
+
+Results saved to: /cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram-release/logs/timing/nq10/eval_results_cycles16_20261020_005743.txt
+
+Done!

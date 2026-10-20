@@ -1,0 +1,1 @@
+[test] checkpoints/Edge-coloring-16-ACT-torch/pretrain_att_gram_edge_coloring_16_kl005/step_15300: valid@1=0.8114 valid_rate=0.8215 pass@20=1.0000 qhalt@20=0.9291 coverage=0.9305 conflicts1=0.415

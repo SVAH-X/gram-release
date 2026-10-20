@@ -1,0 +1,33 @@
+[eval_select] test.tsv: 773 puzzles, n_samples=20, ks=(1, 5, 20), ema=False, seed=0
+{
+  "n_examples": 773,
+  "n_samples": 20,
+  "ks": [
+    1,
+    5,
+    20
+  ],
+  "pass_at_k": {
+    "1": 0.9476067270375161,
+    "5": 0.9992102359429508,
+    "20": 1.0
+  },
+  "majority_at_k": {
+    "1": 0.943078913324709,
+    "5": 0.9831824062095731,
+    "20": 0.9922380336351876
+  },
+  "lprm_at_k": {
+    "1": 0.943078913324709,
+    "5": 0.9793014230271668,
+    "20": 0.9844760672703752
+  },
+  "coverage": 0.971737323358271,
+  "coverage_found": 1169,
+  "coverage_possible": 1203,
+  "note_lprm": "DIAGNOSTIC ONLY \u2014 LPRM target is exact-match, not validity (audit A6/Q6).",
+  "split": "data/nqueens_8x8_full/test.tsv",
+  "checkpoint": "runs/v13_papersum_reg16_cosine_ema_2/ckpt_ep300.pt",
+  "seed": 0,
+  "used_ema": false
+}

@@ -1,0 +1,580 @@
+W1019 16:11:04.413000 54804 site-packages/torch/distributed/run.py:766] 
+W1019 16:11:04.413000 54804 site-packages/torch/distributed/run.py:766] *****************************************
+W1019 16:11:04.413000 54804 site-packages/torch/distributed/run.py:766] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1019 16:11:04.413000 54804 site-packages/torch/distributed/run.py:766] *****************************************
+Initializing GRAM with config: batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config:Initializing GRAM with config:  batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=96 seq_len=120 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=6 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.2 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+GenerativeRecursiveReasoningModel(
+  (inner): GenerativeRecursiveReasoningModelInner(
+    (embed_tokens): CastedEmbedding()
+    (lm_head): SwiGLU(
+      (gate_up_proj): CastedLinear()
+      (down_proj): CastedLinear()
+    )
+    (q_head): CastedLinear()
+    (variational): VariationalLayer(
+      (prior_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (post_mlp): SwiGLU(
+        (gate_up_proj): CastedLinear()
+        (down_proj): CastedLinear()
+      )
+      (z_proj): Linear(in_features=256, out_features=512, bias=True)
+    )
+    (puzzle_emb): CastedSparseEmbedding()
+    (rotary_emb): RotaryEmbedding()
+    (L_level): GenerativeRecursiveReasoningModelReasoningModule(
+      (layers): ModuleList(
+        (0-1): 2 x GenerativeRecursiveReasoningModelBlock(
+          (self_attn): Attention(
+            (qkv_proj): CastedLinear()
+            (o_proj): CastedLinear()
+          )
+          (mlp): SwiGLU(
+            (gate_up_proj): CastedLinear()
+            (down_proj): CastedLinear()
+          )
+        )
+      )
+    )
+  )
+)
+Setup EMA
+[Rank 3, World Size 8]: Epoch 0
+Setup EMA
+[Rank 1, World Size 8]: Epoch 0
+Setup EMA
+[Rank 2, World Size 8]: Epoch 0
+  0%|          | 0/76503 [00:00<?, ?it/s]Setup EMA
+[Rank 6, World Size 8]: Epoch 0
+Setup EMA
+[Rank 5, World Size 8]: Epoch 0
+Setup EMA
+[Rank 7, World Size 8]: Epoch 0
+Setup EMA
+[Rank 4, World Size 8]: Epoch 0
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /home/pengcongkai/.netrc.
+wandb: Currently logged in as: k2peng (k2peng-university-of-waterloo) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run gz7cdn8q
+wandb: Tracking run with wandb version 0.28.0
+wandb: Run data is saved locally in /cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram-release/wandb/run-20261019_161308-gz7cdn8q
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pretrain_att_gram_edge_coloring_16_kl02
+wandb: ⭐️ View project at https://wandb.ai/k2peng-university-of-waterloo/Edge-coloring-16-ACT-torch
+wandb: 🚀 View run at https://wandb.ai/k2peng-university-of-waterloo/Edge-coloring-16-ACT-torch/runs/gz7cdn8q
+Setup EMA
+[Rank 0, World Size 8]: Epoch 0
+TRAIN
+wandb: WARNING Artifact "source-Edge-coloring-16-ACT-torch-pretrain.py" already exists with the same content. No new version will be created.
+[rank3]:[E1019 16:25:59.509204743 ProcessGroupNCCL.cpp:632] [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759332 milliseconds before timing out.
+[rank1]:[E1019 16:25:59.509204741 ProcessGroupNCCL.cpp:632] [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759167 milliseconds before timing out.
+[rank4]:[E1019 16:25:59.509227495 ProcessGroupNCCL.cpp:632] [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759168 milliseconds before timing out.
+[rank2]:[E1019 16:25:59.509407913 ProcessGroupNCCL.cpp:632] [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759355 milliseconds before timing out.
+[rank1]:[E1019 16:25:59.509498305 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 1]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank1]:[E1019 16:25:59.509509610 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank1]:[E1019 16:25:59.509558860 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 1] First PG on this rank to signal dumping.
+[rank6]:[E1019 16:25:59.509574090 ProcessGroupNCCL.cpp:632] [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759144 milliseconds before timing out.
+[rank5]:[E1019 16:25:59.509580387 ProcessGroupNCCL.cpp:632] [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759467 milliseconds before timing out.
+[rank7]:[E1019 16:25:59.509739271 ProcessGroupNCCL.cpp:632] [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759078 milliseconds before timing out.
+[rank2]:[E1019 16:25:59.510061957 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 2]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank2]:[E1019 16:25:59.510073674 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank2]:[E1019 16:25:59.510107355 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 2] First PG on this rank to signal dumping.
+[rank5]:[E1019 16:25:59.510123279 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 5]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank5]:[E1019 16:25:59.510137440 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank5]:[E1019 16:25:59.510165815 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 5] First PG on this rank to signal dumping.
+[rank3]:[E1019 16:25:59.510335470 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 3]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank7]:[E1019 16:25:59.510339541 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 7]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank4]:[E1019 16:25:59.510340353 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 4]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank3]:[E1019 16:25:59.510352099 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank7]:[E1019 16:25:59.510352797 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank6]:[E1019 16:25:59.510346263 ProcessGroupNCCL.cpp:2268] [PG ID 0 PG GUID 0(default_pg) Rank 6]  failure detected by watchdog at work sequence id: 30 PG status: last enqueued work: 49, last completed work: 29
+[rank4]:[E1019 16:25:59.510353978 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank6]:[E1019 16:25:59.510359797 ProcessGroupNCCL.cpp:670] Stack trace of the failed collective not found, potentially because FlightRecorder is disabled. You can enable it by setting TORCH_NCCL_TRACE_BUFFER_SIZE to a non-zero value.
+[rank3]:[E1019 16:25:59.510376709 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 3] First PG on this rank to signal dumping.
+[rank7]:[E1019 16:25:59.510377410 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 7] First PG on this rank to signal dumping.
+[rank4]:[E1019 16:25:59.510382316 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 4] First PG on this rank to signal dumping.
+[rank6]:[E1019 16:25:59.510385873 ProcessGroupNCCL.cpp:2103] [PG ID 0 PG GUID 0(default_pg) Rank 6] First PG on this rank to signal dumping.
+[rank5]:[E1019 16:25:59.518124364 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 5] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank5]:[E1019 16:25:59.518281509 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 5] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank6]:[E1019 16:25:59.958893792 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 6] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank3]:[E1019 16:25:59.958899208 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 3] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank2]:[E1019 16:25:59.958942467 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 2] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank3]:[E1019 16:25:59.958980020 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 3] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank6]:[E1019 16:25:59.959009895 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 6] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank2]:[E1019 16:25:59.959293139 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 2] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank4]:[E1019 16:25:59.959333030 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 4] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank4]:[E1019 16:25:59.959420939 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 4] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank7]:[E1019 16:25:59.959566491 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 7] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank7]:[E1019 16:25:59.959669077 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 7] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+  0%|          | 1/76503 [12:52<16409:38:13, 772.20s/it][rank1]:[E1019 16:25:59.961366943 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 1] Received a dump signal due to a collective timeout from this local rank and we will try our best to dump the debug info. Last enqueued NCCL work: 49, last completed NCCL work: 29.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank1]:[E1019 16:25:59.961444468 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 1] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank5]:[E1019 16:25:59.986581554 ProcessGroupNCCL.cpp:684] [Rank 5] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank5]:[E1019 16:25:59.986592994 ProcessGroupNCCL.cpp:698] [Rank 5] To avoid data inconsistency, we are taking the entire process down.
+Error executing job with overrides: ['arch=gram', 'seed=42', 'global_batch_size=768', 'data_paths=[data/edge-coloring-16]', 'evaluators=[]', 'epochs=5000', 'eval_interval=50', 'lr=1e-4', 'puzzle_emb_lr=1e-4', 'weight_decay=1.0', 'puzzle_emb_weight_decay=1.0', 'arch.L_layers=2', 'arch.H_cycles=3', 'arch.L_cycles=4', 'arch.kl_balance_alpha=0.8', 'arch.kl_coef=0.2', '+run_name=pretrain_att_gram_edge_coloring_16_kl02', 'ema=True', 'checkpoint_every_eval=True']
+[rank5]:[E1019 16:25:59.990137391 ProcessGroupNCCL.cpp:1896] [PG ID 0 PG GUID 0(default_pg) Rank 5] Process group watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759467 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fdb646645e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7fdb6597fa1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7fdb659817a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7fdb65982ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7fdbc24cc0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fdbc50d6609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fdbc4ea1133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+Traceback (most recent call last):
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 5] Process group watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759467 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fdb646645e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7fdb6597fa1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7fdb659817a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7fdb65982ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7fdbc24cc0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fdbc50d6609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fdbc4ea1133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1902 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fdb646645e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x11b4a6e (0x7fdb65951a6e in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xe07bed (0x7fdb655a4bed in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: <unknown function> + 0xdf0e6 (0x7fdbc24cc0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #4: <unknown function> + 0x8609 (0x7fdbc50d6609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #5: clone + 0x43 (0x7fdbc4ea1133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+[rank6]:[E1019 16:25:59.019629495 ProcessGroupNCCL.cpp:684] [Rank 6] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank6]:[E1019 16:25:59.019648412 ProcessGroupNCCL.cpp:698] [Rank 6] To avoid data inconsistency, we are taking the entire process down.
+[rank6]:[E1019 16:25:59.020991555 ProcessGroupNCCL.cpp:1896] [PG ID 0 PG GUID 0(default_pg) Rank 6] Process group watchdog thread terminated with exception: [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759144 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f95482935e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7f95495aea1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7f95495b07a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f95495b1ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7f95a60fb0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f95a8d05609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f95a8ad0133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 6] Process group watchdog thread terminated with exception: [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759144 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f95482935e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7f95495aea1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7f95495b07a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f95495b1ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7f95a60fb0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f95a8d05609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f95a8ad0133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1902 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f95482935e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x11b4a6e (0x7f9549580a6e in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xe07bed (0x7f95491d3bed in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: <unknown function> + 0xdf0e6 (0x7f95a60fb0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #4: <unknown function> + 0x8609 (0x7f95a8d05609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #5: clone + 0x43 (0x7f95a8ad0133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+[rank3]:[E1019 16:25:59.100746594 ProcessGroupNCCL.cpp:684] [Rank 3] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank3]:[E1019 16:25:59.100762050 ProcessGroupNCCL.cpp:698] [Rank 3] To avoid data inconsistency, we are taking the entire process down.
+[rank3]:[E1019 16:25:59.103427902 ProcessGroupNCCL.cpp:1896] [PG ID 0 PG GUID 0(default_pg) Rank 3] Process group watchdog thread terminated with exception: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759332 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f694366b5e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7f6944986a1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7f69449887a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f6944989ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7f69a14d30e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f69a40dd609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f69a3ea8133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 3] Process group watchdog thread terminated with exception: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759332 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f694366b5e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7f6944986a1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7f69449887a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f6944989ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7f69a14d30e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f69a40dd609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f69a3ea8133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1902 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f694366b5e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x11b4a6e (0x7f6944958a6e in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xe07bed (0x7f69445abbed in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: <unknown function> + 0xdf0e6 (0x7f69a14d30e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #4: <unknown function> + 0x8609 (0x7f69a40dd609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #5: clone + 0x43 (0x7f69a3ea8133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+[rank2]:[E1019 16:26:00.494325757 ProcessGroupNCCL.cpp:684] [Rank 2] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank2]:[E1019 16:26:00.494348715 ProcessGroupNCCL.cpp:698] [Rank 2] To avoid data inconsistency, we are taking the entire process down.
+[rank2]:[E1019 16:26:00.495554449 ProcessGroupNCCL.cpp:1896] [PG ID 0 PG GUID 0(default_pg) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759355 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f33d8f855e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7f33da2a0a1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7f33da2a27a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f33da2a3ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7f3436ded0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f34399f7609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f34397c2133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 2] Process group watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759355 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f33d8f855e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7f33da2a0a1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7f33da2a27a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f33da2a3ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7f3436ded0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f34399f7609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f34397c2133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1902 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7f33d8f855e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x11b4a6e (0x7f33da272a6e in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xe07bed (0x7f33d9ec5bed in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: <unknown function> + 0xdf0e6 (0x7f3436ded0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #4: <unknown function> + 0x8609 (0x7f34399f7609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #5: clone + 0x43 (0x7f34397c2133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+[rank0]:[E1019 16:26:00.595203389 ProcessGroupNCCL.cpp:1682] [PG ID 0 PG GUID 0(default_pg) Rank 0] Observed flight recorder dump signal from another rank via TCPStore.
+[rank0]:[E1019 16:26:00.595330034 ProcessGroupNCCL.cpp:1743] [PG ID 0 PG GUID 0(default_pg) Rank 0] Received a dump signal due to a collective timeout from  rank 6 and we will try our best to dump the debug info. Last enqueued NCCL work: 71, last completed NCCL work: 50.This is most likely caused by incorrect usages of collectives, e.g., wrong sizes used across ranks, the order of collectives is not same for all ranks or the scheduled collective, for some reason, didn't run. Additionally, this can be caused by GIL deadlock or other reasons such as network errors or bugs in the communications library (e.g. NCCL), etc. 
+[rank0]:[E1019 16:26:00.595410125 ProcessGroupNCCL.cpp:1533] [PG ID 0 PG GUID 0(default_pg) Rank 0] ProcessGroupNCCL preparing to dump debug info. Include stack trace: 1
+[rank4]:[E1019 16:26:00.662731623 ProcessGroupNCCL.cpp:684] [Rank 4] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank4]:[E1019 16:26:00.662752077 ProcessGroupNCCL.cpp:698] [Rank 4] To avoid data inconsistency, we are taking the entire process down.
+[rank4]:[E1019 16:26:00.663953406 ProcessGroupNCCL.cpp:1896] [PG ID 0 PG GUID 0(default_pg) Rank 4] Process group watchdog thread terminated with exception: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759168 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fd2aa1235e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7fd2ab43ea1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7fd2ab4407a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7fd2ab441ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7fd307f8b0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fd30ab95609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fd30a960133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 4] Process group watchdog thread terminated with exception: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=30, OpType=ALLREDUCE, NumelIn=1572864, NumelOut=1572864, Timeout(ms)=615000) ran for 759168 milliseconds before timing out.
+Exception raised from checkTimeout at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:635 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fd2aa1235e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x23d (0x7fd2ab43ea1d in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0xc80 (0x7fd2ab4407a0 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7fd2ab441ead in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xdf0e6 (0x7fd307f8b0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fd30ab95609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fd30a960133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1902 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fd2aa1235e8 in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x11b4a6e (0x7fd2ab410a6e in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xe07bed (0x7fd2ab063bed in /root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: <unknown function> + 0xdf0e6 (0x7fd307f8b0e6 in /root/miniconda3/envs/vllm-cu126/bin/../lib/libstdc++.so.6)
+frame #4: <unknown function> + 0x8609 (0x7fd30ab95609 in /usr/lib/x86_64-linux-gnu/libpthread.so.0)
+frame #5: clone + 0x43 (0x7fd30a960133 in /usr/lib/x86_64-linux-gnu/libc.so.6)
+
+W1019 16:31:18.247000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54872 closing signal SIGTERM
+W1019 16:31:18.249000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54873 closing signal SIGTERM
+W1019 16:31:18.250000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54874 closing signal SIGTERM
+W1019 16:31:18.250000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54875 closing signal SIGTERM
+W1019 16:31:18.252000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54876 closing signal SIGTERM
+W1019 16:31:18.253000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54877 closing signal SIGTERM
+W1019 16:31:18.254000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 54879 closing signal SIGTERM
+W1019 16:31:48.254000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:919] Unable to shutdown process 54874 via 15, forcefully exiting via 9
+W1019 16:36:34.733000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:919] Unable to shutdown process 54875 via 15, forcefully exiting via 9
+W1019 16:36:34.940000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:919] Unable to shutdown process 54876 via 15, forcefully exiting via 9
+E1019 16:36:35.824000 54804 site-packages/torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: -6) local_rank: 6 (pid: 54878) of binary: /root/miniconda3/envs/vllm-cu126/bin/python3.12
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/vllm-cu126/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+======================================================
+pretrain.py FAILED
+------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-10-19_16:31:18
+  host      : dsw-39182-77556c978-msh6x
+  rank      : 6 (local_rank: 6)
+  exitcode  : -6 (pid: 54878)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 54878
+======================================================

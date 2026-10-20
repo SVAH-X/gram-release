@@ -1,0 +1,65 @@
+[eval_select] test.tsv: 6513 puzzles, n_samples=20, ks=(1, 5, 20), ema=False, seed=0
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/eval_select.py", line 241, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/eval_select.py", line 226, in main
+    result = evaluate_select(model, ds, args.n_samples, ks, device, args.batch_size)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/eval_select.py", line 138, in evaluate_select
+    outs = model(inp, y=None)               # prior path, stochastic ε per row
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/model.py", line 147, in forward
+    h, l, info = self.core.supervision_step(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/recursive.py", line 155, in supervision_step
+    h, l, info = self.one_transition(h, l, ex, y_pooled)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/recursive.py", line 110, in one_transition
+    l_k = self.fL(l_k + h_prev + ex)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/blocks.py", line 203, in forward
+    x = layer(x)
+        ^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/blocks.py", line 182, in forward
+    x = x + self.attn(self.norm_attn(x))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/vllm-cu126/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/blocks.py", line 116, in forward
+    q, k = self.rope.apply_rope(q, k)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/blocks.py", line 66, in apply_rope
+    return _rotate(q, cos, sin), _rotate(k, cos, sin)
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/gram/blocks.py", line 79, in _rotate
+    out = torch.empty_like(x)
+          ^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 436.00 MiB. GPU 0 has a total capacity of 79.14 GiB of which 202.75 MiB is free. Process 43821 has 78.93 GiB memory in use. Of the allocated memory 77.77 GiB is allocated by PyTorch, and 691.75 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

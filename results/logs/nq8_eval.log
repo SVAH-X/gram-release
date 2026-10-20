@@ -1,0 +1,102 @@
+W1019 05:45:02.781000 35728 site-packages/torch/distributed/run.py:766] 
+W1019 05:45:02.781000 35728 site-packages/torch/distributed/run.py:766] *****************************************
+W1019 05:45:02.781000 35728 site-packages/torch/distributed/run.py:766] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1019 05:45:02.781000 35728 site-packages/torch/distributed/run.py:766] *****************************************
+Loading checkpoint from checkpoints/Nqueens-8-ACT-torch/pretrain_att_gram_nqueens_8/step_47000/checkpoint.pt
+
+Configuration:
+  Architecture: recursive_reasoning.gram@GenerativeRecursiveReasoningModel
+  Train data: ['data/nqueens-8']
+  Eval data: ['data/nqueens-8'] (TEST SET)
+  Batch size: 768 (B), Samples: 20 (K) -> Effective: 15360 (B*K)
+  Temperature: 0.0
+  Filter augmented: False
+  Max H-cycles: 16
+  Value: disabled
+  World size: 8
+
+Loading evaluation data...
+Creating pass@k evaluator...
+Creating N-Queen pass@k evaluator...
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Loading model...
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+  ✓ Loading EMA parameters from checkpoint
+
+Running pass@20 evaluation...
+============================================================
+Total examples in all: 1240
+Eval K=20: 0batch [00:00, ?batch/s]  Saved: nqueens_viz/puzzle_000_00.png (20/20 valid, 1 unique)
+  Saved: nqueens_viz/puzzle_000_01.png (20/20 valid, 1 unique)
+  Saved: nqueens_viz/puzzle_000_02.png (20/20 valid, 3 unique)
+  Saved: nqueens_viz/puzzle_000_03.png (20/20 valid, 11 unique)
+  Saved: nqueens_viz/puzzle_000_04.png (20/20 valid, 1 unique)
+Eval K=20: 1batch [00:12, 12.73s/batch]  Saved: nqueens_viz/puzzle_001_00.png (15/20 valid, 6 unique)
+  Saved: nqueens_viz/puzzle_001_01.png (19/20 valid, 3 unique)
+  Saved: nqueens_viz/puzzle_001_02.png (20/20 valid, 3 unique)
+  Saved: nqueens_viz/puzzle_001_03.png (20/20 valid, 5 unique)
+  Saved: nqueens_viz/puzzle_001_04.png (20/20 valid, 1 unique)
+Eval K=20: 2batch [00:25, 12.65s/batch]Eval K=20: 2batch [00:25, 12.66s/batch]
+
+============================================================
+Computing pass@k metrics...
+
+============================================================
+RESULTS
+============================================================
+NQueens/answer_coverage_12sol           : 0.8194
+NQueens/answer_coverage_18sol           : 0.6543
+NQueens/answer_coverage_1sol            : 1.0000
+NQueens/answer_coverage_2sol            : 1.0000
+NQueens/answer_coverage_3sol            : 0.9977
+NQueens/answer_coverage_4sol            : 0.9940
+NQueens/answer_coverage_5sol            : 0.9867
+NQueens/answer_coverage_6sol            : 0.9667
+NQueens/answer_coverage_7sol            : 0.9694
+NQueens/answer_coverage_8sol            : 0.9241
+NQueens/avg_correctness_ratio           : 0.9958
+NQueens/avg_unique_samples              : 2.6895
+NQueens/count_12sol                     : 12.0000
+NQueens/count_18sol                     : 36.0000
+NQueens/count_1sol                      : 517.0000
+NQueens/count_2sol                      : 332.0000
+NQueens/count_3sol                      : 144.0000
+NQueens/count_4sol                      : 84.0000
+NQueens/count_5sol                      : 15.0000
+NQueens/count_6sol                      : 30.0000
+NQueens/count_7sol                      : 14.0000
+NQueens/count_8sol                      : 56.0000
+NQueens/exact_pass@1                    : 0.9919
+NQueens/exact_pass@10                   : 1.0000
+NQueens/exact_pass@2                    : 1.0000
+NQueens/exact_pass@20                   : 1.0000
+NQueens/exact_pass@5                    : 1.0000
+NQueens/majority_exact                  : 1.0000
+NQueens/majority_exact_12sol            : 1.0000
+NQueens/majority_exact_18sol            : 1.0000
+NQueens/majority_exact_1sol             : 1.0000
+NQueens/majority_exact_2sol             : 1.0000
+NQueens/majority_exact_3sol             : 1.0000
+NQueens/majority_exact_4sol             : 1.0000
+NQueens/majority_exact_5sol             : 1.0000
+NQueens/majority_exact_6sol             : 1.0000
+NQueens/majority_exact_7sol             : 1.0000
+NQueens/majority_exact_8sol             : 1.0000
+NQueens/majority_ratio                  : 0.6928
+NQueens/majority_token                  : 0.9473
+NQueens/pass@1                          : 0.9471
+NQueens/pass@10                         : 0.9948
+NQueens/pass@2                          : 0.9651
+NQueens/pass@20                         : 0.9982
+NQueens/pass@5                          : 0.9857
+NQueens/total_puzzles                   : 1240.0000
+
+Results saved to: checkpoints/Nqueens-8-ACT-torch/pretrain_att_gram_nqueens_8/step_47000/eval_results_cycles16_20261019_054543.txt
+
+Done!

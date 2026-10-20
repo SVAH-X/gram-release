@@ -1,0 +1,122 @@
+W1019 08:04:26.953000 41295 site-packages/torch/distributed/run.py:766] 
+W1019 08:04:26.953000 41295 site-packages/torch/distributed/run.py:766] *****************************************
+W1019 08:04:26.953000 41295 site-packages/torch/distributed/run.py:766] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1019 08:04:26.953000 41295 site-packages/torch/distributed/run.py:766] *****************************************
+Loading checkpoint from checkpoints/Nqueens-10-ACT-torch/pretrain_att_gram_nqueens_10/step_140800/checkpoint.pt
+
+Configuration:
+  Architecture: recursive_reasoning.gram@GenerativeRecursiveReasoningModel
+  Train data: ['data/nqueens-10']
+  Eval data: ['data/nqueens-10'] (TEST SET)
+  Batch size: 768 (B), Samples: 20 (K) -> Effective: 15360 (B*K)
+  Temperature: 0.0
+  Filter augmented: False
+  Max H-cycles: 16
+  Value: disabled
+  World size: 8
+
+Loading evaluation data...
+Creating pass@k evaluator...
+Creating N-Queen pass@k evaluator...
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+Loading model...
+Initializing GRAM with config: batch_size=768 seq_len=100 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.045 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+  ✓ Loading EMA parameters from checkpoint
+
+Running pass@20 evaluation...
+============================================================
+Total examples in all: 18466
+Eval K=20: 0batch [00:00, ?batch/s]Eval K=20: 1batch [00:12, 12.94s/batch]Eval K=20: 2batch [00:25, 12.68s/batch]Eval K=20: 3batch [00:37, 12.61s/batch]Eval K=20: 4batch [00:50, 12.58s/batch]Eval K=20: 5batch [01:03, 12.56s/batch]Eval K=20: 6batch [01:15, 12.55s/batch]Eval K=20: 7batch [01:28, 12.54s/batch]Eval K=20: 8batch [01:40, 12.54s/batch]Eval K=20: 9batch [01:53, 12.54s/batch]Eval K=20: 10batch [02:05, 12.53s/batch]Eval K=20: 11batch [02:18, 12.53s/batch]Eval K=20: 12batch [02:30, 12.53s/batch]Eval K=20: 13batch [02:43, 12.53s/batch]Eval K=20: 14batch [02:55, 12.53s/batch]Eval K=20: 15batch [03:08, 12.53s/batch]Eval K=20: 16batch [03:20, 12.53s/batch]Eval K=20: 17batch [03:33, 12.53s/batch]Eval K=20: 18batch [03:45, 12.53s/batch]Eval K=20: 19batch [03:58, 12.53s/batch]Eval K=20: 20batch [04:10, 12.53s/batch]Eval K=20: 21batch [04:23, 12.53s/batch]Eval K=20: 22batch [04:36, 12.53s/batch]Eval K=20: 23batch [04:48, 12.53s/batch]Eval K=20: 24batch [05:01, 12.53s/batch]Eval K=20: 25batch [05:13, 12.52s/batch]Eval K=20: 25batch [05:13, 12.54s/batch]
+
+============================================================
+Computing pass@k metrics...
+
+============================================================
+RESULTS
+============================================================
+NQueens/answer_coverage_10sol           : 0.8118
+NQueens/answer_coverage_11sol           : 0.7851
+NQueens/answer_coverage_12sol           : 0.7708
+NQueens/answer_coverage_13sol           : 0.7355
+NQueens/answer_coverage_14sol           : 0.7302
+NQueens/answer_coverage_15sol           : 0.7003
+NQueens/answer_coverage_16sol           : 0.6574
+NQueens/answer_coverage_17sol           : 0.6534
+NQueens/answer_coverage_18sol           : 0.6354
+NQueens/answer_coverage_19sol           : 0.6343
+NQueens/answer_coverage_1sol            : 1.0000
+NQueens/answer_coverage_20sol           : 0.3045
+NQueens/answer_coverage_2sol            : 0.9991
+NQueens/answer_coverage_3sol            : 0.9936
+NQueens/answer_coverage_4sol            : 0.9792
+NQueens/answer_coverage_5sol            : 0.9597
+NQueens/answer_coverage_6sol            : 0.9330
+NQueens/answer_coverage_7sol            : 0.8859
+NQueens/answer_coverage_8sol            : 0.8665
+NQueens/answer_coverage_9sol            : 0.8388
+NQueens/avg_correctness_ratio           : 0.9029
+NQueens/avg_unique_samples              : 6.7522
+NQueens/count_10sol                     : 500.0000
+NQueens/count_11sol                     : 330.0000
+NQueens/count_12sol                     : 432.0000
+NQueens/count_13sol                     : 429.0000
+NQueens/count_14sol                     : 126.0000
+NQueens/count_15sol                     : 210.0000
+NQueens/count_16sol                     : 112.0000
+NQueens/count_17sol                     : 221.0000
+NQueens/count_18sol                     : 126.0000
+NQueens/count_19sol                     : 76.0000
+NQueens/count_1sol                      : 2398.0000
+NQueens/count_20sol                     : 964.0000
+NQueens/count_2sol                      : 3314.0000
+NQueens/count_3sol                      : 3144.0000
+NQueens/count_4sol                      : 2320.0000
+NQueens/count_5sol                      : 1305.0000
+NQueens/count_6sol                      : 876.0000
+NQueens/count_7sol                      : 567.0000
+NQueens/count_8sol                      : 368.0000
+NQueens/count_9sol                      : 648.0000
+NQueens/exact_pass@1                    : 0.9027
+NQueens/exact_pass@10                   : 0.9999
+NQueens/exact_pass@2                    : 0.9759
+NQueens/exact_pass@20                   : 1.0000
+NQueens/exact_pass@5                    : 0.9986
+NQueens/majority_exact                  : 1.0000
+NQueens/majority_exact_10sol            : 1.0000
+NQueens/majority_exact_11sol            : 1.0000
+NQueens/majority_exact_12sol            : 1.0000
+NQueens/majority_exact_13sol            : 1.0000
+NQueens/majority_exact_14sol            : 1.0000
+NQueens/majority_exact_15sol            : 1.0000
+NQueens/majority_exact_16sol            : 1.0000
+NQueens/majority_exact_17sol            : 1.0000
+NQueens/majority_exact_18sol            : 1.0000
+NQueens/majority_exact_19sol            : 1.0000
+NQueens/majority_exact_1sol             : 1.0000
+NQueens/majority_exact_20sol            : 1.0000
+NQueens/majority_exact_2sol             : 1.0000
+NQueens/majority_exact_3sol             : 1.0000
+NQueens/majority_exact_4sol             : 1.0000
+NQueens/majority_exact_5sol             : 1.0000
+NQueens/majority_exact_6sol             : 1.0000
+NQueens/majority_exact_7sol             : 1.0000
+NQueens/majority_exact_8sol             : 1.0000
+NQueens/majority_exact_9sol             : 1.0000
+NQueens/majority_ratio                  : 0.4242
+NQueens/majority_token                  : 0.9262
+NQueens/pass@1                          : 0.9223
+NQueens/pass@10                         : 0.9844
+NQueens/pass@2                          : 0.9444
+NQueens/pass@20                         : 0.9925
+NQueens/pass@5                          : 0.9708
+NQueens/total_puzzles                   : 18466.0000
+
+Results saved to: checkpoints/Nqueens-10-ACT-torch/pretrain_att_gram_nqueens_10/step_140800/eval_results_cycles16_20261019_080958.txt
+
+Done!

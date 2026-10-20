@@ -1,0 +1,14 @@
+{
+  "source": "/cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram/data/edge_coloring_n16/dataset.pt",
+  "non_edge_labels": "ignore",
+  "max_n": 16,
+  "seq_len": 120,
+  "vocab_size": 6,
+  "train_rows": 11751,
+  "train_graphs": 3106,
+  "holdout_graphs": 164,
+  "holdout_essentials": 554,
+  "test_graphs": 578,
+  "test_essentials": 2101,
+  "optimizer_steps_per_epoch_at_global_batch_768": 15
+}

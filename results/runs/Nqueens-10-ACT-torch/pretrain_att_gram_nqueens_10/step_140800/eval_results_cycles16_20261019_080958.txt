@@ -1,0 +1,91 @@
+============================================================
+EVALUATION RESULTS
+============================================================
+
+Checkpoint: checkpoints/Nqueens-10-ACT-torch/pretrain_att_gram_nqueens_10/step_140800
+Timestamp: 20261019_080958
+Num samples: 20
+Temperature: 0.0
+Max H-cycles: 16
+Eval data: ['data/nqueens-10']
+
+============================================================
+METRICS
+============================================================
+
+NQueens/answer_coverage_10sol           : 0.8118
+NQueens/answer_coverage_11sol           : 0.7851
+NQueens/answer_coverage_12sol           : 0.7708
+NQueens/answer_coverage_13sol           : 0.7355
+NQueens/answer_coverage_14sol           : 0.7302
+NQueens/answer_coverage_15sol           : 0.7003
+NQueens/answer_coverage_16sol           : 0.6574
+NQueens/answer_coverage_17sol           : 0.6534
+NQueens/answer_coverage_18sol           : 0.6354
+NQueens/answer_coverage_19sol           : 0.6343
+NQueens/answer_coverage_1sol            : 1.0000
+NQueens/answer_coverage_20sol           : 0.3045
+NQueens/answer_coverage_2sol            : 0.9991
+NQueens/answer_coverage_3sol            : 0.9936
+NQueens/answer_coverage_4sol            : 0.9792
+NQueens/answer_coverage_5sol            : 0.9597
+NQueens/answer_coverage_6sol            : 0.9330
+NQueens/answer_coverage_7sol            : 0.8859
+NQueens/answer_coverage_8sol            : 0.8665
+NQueens/answer_coverage_9sol            : 0.8388
+NQueens/avg_correctness_ratio           : 0.9029
+NQueens/avg_unique_samples              : 6.7522
+NQueens/count_10sol                     : 500.0000
+NQueens/count_11sol                     : 330.0000
+NQueens/count_12sol                     : 432.0000
+NQueens/count_13sol                     : 429.0000
+NQueens/count_14sol                     : 126.0000
+NQueens/count_15sol                     : 210.0000
+NQueens/count_16sol                     : 112.0000
+NQueens/count_17sol                     : 221.0000
+NQueens/count_18sol                     : 126.0000
+NQueens/count_19sol                     : 76.0000
+NQueens/count_1sol                      : 2398.0000
+NQueens/count_20sol                     : 964.0000
+NQueens/count_2sol                      : 3314.0000
+NQueens/count_3sol                      : 3144.0000
+NQueens/count_4sol                      : 2320.0000
+NQueens/count_5sol                      : 1305.0000
+NQueens/count_6sol                      : 876.0000
+NQueens/count_7sol                      : 567.0000
+NQueens/count_8sol                      : 368.0000
+NQueens/count_9sol                      : 648.0000
+NQueens/exact_pass@1                    : 0.9027
+NQueens/exact_pass@10                   : 0.9999
+NQueens/exact_pass@2                    : 0.9759
+NQueens/exact_pass@20                   : 1.0000
+NQueens/exact_pass@5                    : 0.9986
+NQueens/majority_exact                  : 1.0000
+NQueens/majority_exact_10sol            : 1.0000
+NQueens/majority_exact_11sol            : 1.0000
+NQueens/majority_exact_12sol            : 1.0000
+NQueens/majority_exact_13sol            : 1.0000
+NQueens/majority_exact_14sol            : 1.0000
+NQueens/majority_exact_15sol            : 1.0000
+NQueens/majority_exact_16sol            : 1.0000
+NQueens/majority_exact_17sol            : 1.0000
+NQueens/majority_exact_18sol            : 1.0000
+NQueens/majority_exact_19sol            : 1.0000
+NQueens/majority_exact_1sol             : 1.0000
+NQueens/majority_exact_20sol            : 1.0000
+NQueens/majority_exact_2sol             : 1.0000
+NQueens/majority_exact_3sol             : 1.0000
+NQueens/majority_exact_4sol             : 1.0000
+NQueens/majority_exact_5sol             : 1.0000
+NQueens/majority_exact_6sol             : 1.0000
+NQueens/majority_exact_7sol             : 1.0000
+NQueens/majority_exact_8sol             : 1.0000
+NQueens/majority_exact_9sol             : 1.0000
+NQueens/majority_ratio                  : 0.4242
+NQueens/majority_token                  : 0.9262
+NQueens/pass@1                          : 0.9223
+NQueens/pass@10                         : 0.9844
+NQueens/pass@2                          : 0.9444
+NQueens/pass@20                         : 0.9925
+NQueens/pass@5                          : 0.9708
+NQueens/total_puzzles                   : 18466.0000

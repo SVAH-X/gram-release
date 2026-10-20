@@ -1,0 +1,81 @@
+Loading checkpoint from /cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram-release/logs/timing/nq8/checkpoint.pt
+
+Configuration:
+  Architecture: recursive_reasoning.gram@GenerativeRecursiveReasoningModel
+  Train data: ['data/nqueens-8']
+  Eval data: ['data/nqueens-8'] (TEST SET)
+  Batch size: 96 (B), Samples: 20 (K) -> Effective: 1920 (B*K)
+  Temperature: 0.0
+  Filter augmented: False
+  Max H-cycles: 16
+  Value: disabled
+  World size: 1
+
+Loading evaluation data...
+Creating pass@k evaluator...
+Creating N-Queen pass@k evaluator...
+Loading model...
+Initializing GRAM with config: batch_size=768 seq_len=64 puzzle_emb_ndim=512 num_puzzle_identifiers=1 vocab_size=3 H_cycles=3 L_cycles=4 H_layers=0 L_layers=2 hidden_size=512 expansion=4.0 num_heads=8 pos_encodings='rope' rms_norm_eps=1e-05 rope_theta=10000.0 halt_max_steps=16 halt_exploration_prob=0.1 forward_dtype='bfloat16' mlp_t=False puzzle_emb_len=16 no_ACT_continue=True latent_dim=256 kl_coef=0.07 use_mlp_sampler=True fix_mu=False fix_std=False use_mlp_lm_head=True use_value_head=False use_patchify=False patch_size=2 in_channels=1 image_size=28
+  ✓ Loading EMA parameters from checkpoint
+
+Running pass@20 evaluation...
+============================================================
+Total examples in all: 1240
+Eval K=20: 0batch [00:00, ?batch/s]Eval K=20: 1batch [00:09,  9.06s/batch]Eval K=20: 2batch [00:17,  8.88s/batch]Eval K=20: 3batch [00:26,  8.82s/batch]Eval K=20: 4batch [00:35,  8.79s/batch]Eval K=20: 5batch [00:44,  8.76s/batch]Eval K=20: 6batch [00:52,  8.75s/batch]Eval K=20: 7batch [01:01,  8.73s/batch]Eval K=20: 8batch [01:10,  8.72s/batch]Eval K=20: 9batch [01:18,  8.71s/batch]Eval K=20: 10batch [01:27,  8.71s/batch]Eval K=20: 11batch [01:36,  8.70s/batch]Eval K=20: 12batch [01:44,  8.70s/batch]Eval K=20: 13batch [01:53,  8.69s/batch]Eval K=20: 13batch [01:53,  8.74s/batch]
+
+============================================================
+Computing pass@k metrics...
+
+============================================================
+RESULTS
+============================================================
+NQueens/answer_coverage_12sol           : 0.8056
+NQueens/answer_coverage_18sol           : 0.6620
+NQueens/answer_coverage_1sol            : 1.0000
+NQueens/answer_coverage_2sol            : 0.9985
+NQueens/answer_coverage_3sol            : 1.0000
+NQueens/answer_coverage_4sol            : 0.9940
+NQueens/answer_coverage_5sol            : 0.9733
+NQueens/answer_coverage_6sol            : 0.9889
+NQueens/answer_coverage_7sol            : 0.9694
+NQueens/answer_coverage_8sol            : 0.9062
+NQueens/avg_correctness_ratio           : 0.9964
+NQueens/avg_unique_samples              : 2.6734
+NQueens/count_12sol                     : 12.0000
+NQueens/count_18sol                     : 36.0000
+NQueens/count_1sol                      : 517.0000
+NQueens/count_2sol                      : 332.0000
+NQueens/count_3sol                      : 144.0000
+NQueens/count_4sol                      : 84.0000
+NQueens/count_5sol                      : 15.0000
+NQueens/count_6sol                      : 30.0000
+NQueens/count_7sol                      : 14.0000
+NQueens/count_8sol                      : 56.0000
+NQueens/exact_pass@1                    : 0.9935
+NQueens/exact_pass@10                   : 1.0000
+NQueens/exact_pass@2                    : 1.0000
+NQueens/exact_pass@20                   : 1.0000
+NQueens/exact_pass@5                    : 1.0000
+NQueens/majority_exact                  : 1.0000
+NQueens/majority_exact_12sol            : 1.0000
+NQueens/majority_exact_18sol            : 1.0000
+NQueens/majority_exact_1sol             : 1.0000
+NQueens/majority_exact_2sol             : 1.0000
+NQueens/majority_exact_3sol             : 1.0000
+NQueens/majority_exact_4sol             : 1.0000
+NQueens/majority_exact_5sol             : 1.0000
+NQueens/majority_exact_6sol             : 1.0000
+NQueens/majority_exact_7sol             : 1.0000
+NQueens/majority_exact_8sol             : 1.0000
+NQueens/majority_ratio                  : 0.6908
+NQueens/majority_token                  : 0.9445
+NQueens/pass@1                          : 0.9439
+NQueens/pass@10                         : 0.9940
+NQueens/pass@2                          : 0.9648
+NQueens/pass@20                         : 0.9978
+NQueens/pass@5                          : 0.9844
+NQueens/total_puzzles                   : 1240.0000
+
+Results saved to: /cpfs01/projects-HDD/cfff-8b3bcad9f38a_HDD/pengcongkai/gram-1/gram-release/logs/timing/nq8/eval_results_cycles16_20261020_001728.txt
+
+Done!
